@@ -1,0 +1,36 @@
+name: flt_getx_base
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_svg: ^1.1.0
+  get: ^4.6.6
+  logger: ^2.4.0
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+
+flutter:
+  uses-material-design: true
+
+#  fonts:
+#    - family: Pretendard
+#      fonts:
+#        - asset: assets/fonts/Pretendard-Regular.otf
+#          weight: 400
+#        - asset: assets/fonts/Pretendard-Medium.otf
+#          weight: 500
+#        - asset: assets/fonts/Pretendard-SemiBold.otf
+#          weight: 600
+#        - asset: assets/fonts/Pretendard-Bold.otf
+#          weight: 700
